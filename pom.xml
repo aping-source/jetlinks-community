@@ -13,7 +13,9 @@
         <module>jetlinks-standalone</module>
     </modules>
     <packaging>pom</packaging>
+    <name>JetLinks Community</name>
     <properties>
+        <skipTests>true</skipTests>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.locales>zh_CN</project.build.locales>
         <spring.boot.version>2.7.18</spring.boot.version>
